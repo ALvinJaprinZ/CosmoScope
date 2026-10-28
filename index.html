@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f3f0e8">
+    <meta name="description" content="An independent digital observatory for exploring the night sky, remarkable celestial objects, and the scale of the cosmos.">
+    <meta property="og:title" content="COSMOSCOPE — an independent digital observatory">
+    <meta property="og:description" content="A considered guide to the objects and distances that shape our universe.">
+    <meta property="og:type" content="website">
+    <title>COSMOSCOPE — An independent digital observatory</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="COSMOSCOPE home">
+        <img src="assets/cosmoscope-mark.svg" width="38" height="38" alt="">
+        <span>COSMO<span class="brand-light">SCOPE</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#explore">Explore</a>
+        <a href="#picture">Picture of the day</a>
+        <a href="#index">Celestial index</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="header-note" href="#index"><span class="status-dot" aria-hidden="true"></span> A FIELD GUIDE TO SPACE</a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> AN INDEPENDENT DIGITAL OBSERVATORY</p>
+          <h1 id="hero-title">The universe,<br><em>without</em> boundaries.</h1>
+          <p class="hero-intro">A field guide to distant worlds, extraordinary phenomena, and the vastness between them. Start with what we know. Stay curious about what we don't.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#explore">Begin exploring <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#picture">Today's astronomy <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-index" aria-label="Observatory guide">
+            <div><span class="micro-label">OBSERVING MODE</span><strong>DEEP SPACE</strong></div>
+            <div><span class="micro-label">FIELD GUIDE</span><strong>09 OBJECTS / 05 SCALES</strong></div>
+            <span class="hero-index-no" aria-hidden="true">01—04</span>
+          </div>
+        </div>
+        <figure class="hero-art">
+          <svg class="hero-orbit" viewBox="0 0 760 590" role="img" aria-labelledby="hero-art-title hero-art-desc">
+            <title id="hero-art-title">A study of an imagined distant world</title>
+            <desc id="hero-art-desc">A luminous planet rests against a dark, star-dotted field, crossed by two fine orbital paths.</desc>
+            <defs>
+              <radialGradient id="world-glow"><stop offset="0" stop-color="#f8dca8" stop-opacity=".85"/><stop offset=".4" stop-color="#cb9665" stop-opacity=".6"/><stop offset="1" stop-color="#614c43" stop-opacity="0"/></radialGradient>
+              <linearGradient id="world-surface" x1=".2" y1=".1" x2=".8" y2=".9"><stop stop-color="#f4d8ac"/><stop offset=".48" stop-color="#b98766"/><stop offset="1" stop-color="#594d53"/></linearGradient>
+              <clipPath id="world-clip"><circle cx="430" cy="285" r="151"/></clipPath>
+            </defs>
+            <rect width="760" height="590" fill="#141b20"/>
+            <g class="star-points" fill="#eee7d9">
+              <circle cx="82" cy="89" r="1.5"/><circle cx="155" cy="199" r="1"/><circle cx="246" cy="66" r="1.4"/>
+              <circle cx="315" cy="147" r="1"/><circle cx="555" cy="83" r="1.3"/><circle cx="668" cy="190" r="1.4"/>
+              <circle cx="713" cy="368" r="1"/><circle cx="568" cy="492" r="1.2"/><circle cx="327" cy="523" r="1.4"/>
+              <circle cx="125" cy="419" r="1"/><circle cx="54" cy="315" r="1.2"/><circle cx="634" cy="293" r="1"/>
+              <circle cx="226" cy="378" r="1"/><circle cx="479" cy="40" r="1"/><circle cx="700" cy="500" r="1"/>
+            </g>
+            <ellipse cx="430" cy="285" rx="317" ry="115" transform="rotate(-22 430 285)" fill="none" stroke="#d3c8b3" stroke-opacity=".38" stroke-width="1"/>
+            <ellipse cx="430" cy="285" rx="249" ry="202" transform="rotate(32 430 285)" fill="none" stroke="#d3c8b3" stroke-opacity=".18" stroke-width="1"/>
+            <circle cx="430" cy="285" r="223" fill="url(#world-glow)" opacity=".8"/>
+            <circle cx="430" cy="285" r="151" fill="url(#world-surface)"/>
+            <g clip-path="url(#world-clip)" opacity=".4" fill="none" stroke="#f6e5c4">
+              <path d="M259 229c82 33 155 17 224-8s120-20 177 3" stroke-width="14"/>
+              <path d="M254 275c86 30 157 19 244-1s126-12 183 15" stroke-width="7"/>
+              <path d="M264 344c65-33 149-22 212 3s130 34 174 5" stroke-width="18"/>
+              <path d="M306 173c-25 87-18 194 24 247" stroke-width="3"/>
+            </g>
+            <path d="M111 462 224 421" fill="none" stroke="#e1cfad" stroke-width="1"/>
+            <circle cx="224" cy="421" r="2" fill="#e1cfad"/>
+            <text x="54" y="489" fill="#d9cdb6" font-family="monospace" font-size="10" letter-spacing="2">A STUDY IN ORBIT</text>
+            <text x="624" y="548" fill="#a9a89f" font-family="monospace" font-size="9" letter-spacing="1.5">ILLUSTRATIVE / NOT TO SCALE</text>
+            <circle cx="230" cy="357" r="4" fill="#e7bc7a"/>
+          </svg>
+          <figcaption class="hero-caption"><span>FIG. 01</span> An artist's study of a distant world <span class="caption-note">ORIGINAL VECTOR ILLUSTRATION</span></figcaption>
+        </figure>
+        <div class="hero-side-note" aria-hidden="true">A SMALL WINDOW ON AN IMMENSE SKY</div>
+      </section>
+
+      <section class="intro-band" id="explore" aria-labelledby="intro-title">
+        <p class="section-kicker">01 / ORIENTATION</p>
+        <div class="intro-content">
+          <h2 id="intro-title">Look closer.<br><em>Think bigger.</em></h2>
+          <div class="intro-text">
+            <p>Space isn't empty. It's a history written in light, gravity, dust, and time. COSMOSCOPE brings a few of its landmarks into focus—without pretending the map is the territory.</p>
+            <a class="underlined-link" href="#index">Enter the celestial index <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="intro-rule" aria-hidden="true"><span>EARTH</span><span>THE KNOWN / THE UNKNOWN</span><span>BEYOND</span></div>
+      </section>
+
+      <section class="apod-section" id="picture" aria-labelledby="apod-heading">
+        <div class="section-heading apod-heading">
+          <p class="section-kicker">02 / THE DAILY SKY</p>
+          <div class="heading-row">
+            <h2 id="apod-heading">Astronomy<br><em>picture of the day.</em></h2>
+            <p class="heading-aside">One image, selected by NASA, to remind us what is out there.</p>
+          </div>
+        </div>
+        <article class="apod-feature" aria-live="polite">
+          <div class="apod-visual" id="apod-visual">
+            <div class="apod-placeholder" aria-hidden="true">
+              <span class="placeholder-ring"></span><span class="placeholder-star"></span>
+              <span class="placeholder-caption">LIGHT TRAVELS. WE LOOK BACK.</span>
+            </div>
+            <span class="media-tag" id="apod-media-tag">NASA / APOD</span>
+          </div>
+          <div class="apod-story">
+            <div class="apod-meta"><span id="apod-date-label">LOADING OBSERVATION</span></div>
+            <h3 id="apod-title">Today's view from the cosmos</h3>
+            <p class="apod-explanation" id="apod-explanation">Connecting to NASA's Astronomy Picture of the Day. The image and its explanation will appear here when available.</p>
+            <p class="apod-credit" id="apod-credit"></p>
+            <div class="apod-controls">
+              <button class="icon-button" id="apod-prev" type="button" aria-label="Show previous day's astronomy picture">← <span>PREVIOUS</span></button>
+              <button class="icon-button" id="apod-next" type="button" aria-label="Show next day's astronomy picture">NEXT <span>→</span></button>
+              <a class="underlined-link apod-source-link" id="apod-source" href="https://apod.nasa.gov/apod/astropix.html" target="_blank" rel="noopener noreferrer">Open original <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="apod-status" id="apod-status" role="status"></div>
+            <button class="retry-button" id="apod-retry" type="button" hidden>Try again</button>
+          </div>
+        </article>
+        <details class="api-settings">
+          <summary>NASA API settings <span aria-hidden="true">＋</span></summary>
+          <form id="api-key-form">
+            <label for="api-key">Optional NASA API key</label>
+            <div class="api-key-row"><input id="api-key" name="api-key" autocomplete="off" placeholder="DEMO_KEY"><button class="button button-small" type="submit">Save on this device</button></div>
+            <p>The demo key has strict shared rate limits. A personal key is saved only in this browser's local storage; browser API keys are visible to their owner and are not suitable for confidential credentials.</p>
+            <button class="api-key-clear" id="api-key-clear" type="button">Remove saved key</button>
+          </form>
+        </details>
+      </section>
+
+      <section class="index-section" id="index" aria-labelledby="index-heading">
+        <div class="section-heading index-heading">
+          <p class="section-kicker">03 / A POCKET CATALOGUE</p>
+          <div class="heading-row">
+            <h2 id="index-heading">Nine points<br><em>of reference.</em></h2>
+            <p class="heading-aside">A small, curated index—not a live database. Select a subject to open its field note.</p>
+          </div>
+        </div>
+        <div class="catalog-tools">
+          <label class="search-field"><span class="sr-only">Search celestial objects</span><span aria-hidden="true">⌕</span><input id="catalog-search" type="search" placeholder="Search the index" autocomplete="off"></label>
+          <div class="filter-group" role="group" aria-label="Filter by object type" id="category-filters">
+            <button class="filter-button is-active" data-category="all" type="button" aria-pressed="true">All <span>09</span></button>
+            <button class="filter-button" data-category="planet" type="button" aria-pressed="false">Planets</button>
+            <button class="filter-button" data-category="star" type="button" aria-pressed="false">Stars</button>
+            <button class="filter-button" data-category="moon" type="button" aria-pressed="false">Moons</button>
+            <button class="filter-button" data-category="deep-sky" type="button" aria-pressed="false">Deep sky</button>
+          </div>
+          <div class="catalog-extras">
+            <label class="sort-select">SORT <select id="catalog-sort" aria-label="Sort celestial objects"><option value="featured">Featured order</option><option value="name">Name A–Z</option><option value="type">Object type</option></select></label>
+            <button class="favorites-toggle" id="favorites-toggle" type="button" aria-pressed="false">♡ <span>FAVORITES</span> <span id="favorite-count">0</span></button>
+          </div>
+        </div>
+        <p class="results-count" id="results-count" aria-live="polite"></p>
+        <p class="storage-status" id="storage-status" role="status"></p>
+        <div class="catalog-list" id="catalog-list" aria-label="Celestial objects"></div>
+        <div class="empty-state" id="catalog-empty" hidden>
+          <svg viewBox="0 0 80 80" role="img" aria-label="A small telescope points toward an empty patch of sky">
+            <circle cx="40" cy="40" r="30" fill="none" stroke="currentColor"/><circle cx="40" cy="40" r="20" fill="none" stroke="currentColor" stroke-dasharray="2 4"/>
+            <path d="m22 53 24-29 9 7-24 29zM34 55l-8 12m17-14 8 13m-13-36 8 7" fill="none" stroke="currentColor" stroke-width="2"/>
+          </svg>
+          <p class="micro-label">NOTHING IN THIS PATCH OF SKY</p><p>Try a different search or clear the filters.</p>
+          <button class="underlined-link" id="clear-filters" type="button">Clear all filters <span aria-hidden="true">↗</span></button>
+        </div>
+        <p class="source-note">Object facts are concise orientation notes. Reference sources and measurement context are listed in each field note and the <a href="#about">project notes</a>.</p>
+      </section>
+
+      <section class="solar-section" aria-labelledby="solar-heading">
+        <div class="solar-top">
+          <div>
+            <p class="section-kicker">04 / OUR NEIGHBOURHOOD</p>
+            <h2 id="solar-heading">A system<br>in <em>motion.</em></h2>
+          </div>
+          <p class="solar-intro">Eight planets, one star, and a little perspective. Choose a world to see its field note.</p>
+        </div>
+        <div class="solar-layout">
+          <div class="solar-diagram">
+            <svg id="solar-svg" viewBox="0 0 820 470" role="img" aria-labelledby="solar-title solar-desc">
+              <title id="solar-title">Illustrative diagram of the solar system</title>
+              <desc id="solar-desc">The Sun and eight selectable planets are shown along simplified, elliptical orbital paths. Distances and sizes are not to scale.</desc>
+              <defs><radialGradient id="sun-glow"><stop stop-color="#fff3c4"/><stop offset=".35" stop-color="#eabf72"/><stop offset="1" stop-color="#d49242" stop-opacity="0"/></radialGradient></defs>
+              <rect width="820" height="470" fill="#172125"/>
+              <g class="orbit-lines" fill="none" stroke="#d9d4c7" stroke-opacity=".24">
+                <path id="orbit-mercury" d="M468 240a68 38 0 1 1-136 0 68 38 0 1 1 136 0"/><path id="orbit-venus" d="M509 240a109 61 0 1 1-218 0 109 61 0 1 1 218 0"/>
+                <path id="orbit-earth" d="M553 240a153 86 0 1 1-306 0 153 86 0 1 1 306 0"/><path id="orbit-mars" d="M603 240a203 112 0 1 1-406 0 203 112 0 1 1 406 0"/>
+                <path id="orbit-jupiter" d="M669 240a269 149 0 1 1-538 0 269 149 0 1 1 538 0"/><path id="orbit-saturn" d="M710 240a310 171 0 1 1-620 0 310 171 0 1 1 620 0"/>
+                <path id="orbit-uranus" d="M737 240a337 187 0 1 1-674 0 337 187 0 1 1 674 0"/><path id="orbit-neptune" d="M770 240a370 205 0 1 1-740 0 370 205 0 1 1 740 0"/>
+              </g>
+              <circle cx="400" cy="240" r="32" fill="url(#sun-glow)"/><circle cx="400" cy="240" r="9" fill="#f3cf83"/>
+              <g class="solar-planet" data-planet="mercury" tabindex="0" role="button" aria-label="Mercury, select planet"><g class="orbit-motion"><circle r="4" fill="#b9a998"/><circle class="planet-focus" r="11"/><animateMotion dur="12s" repeatCount="indefinite"><mpath href="#orbit-mercury"/></animateMotion></g><text x="468" y="221">MERCURY</text></g>
+              <g class="solar-planet" data-planet="venus" tabindex="0" role="button" aria-label="Venus, select planet"><g class="orbit-motion"><circle r="6" fill="#d6b17c"/><circle class="planet-focus" r="13"/><animateMotion dur="22s" repeatCount="indefinite"><mpath href="#orbit-venus"/></animateMotion></g><text x="400" y="164">VENUS</text></g>
+              <g class="solar-planet is-selected" data-planet="earth" tabindex="0" role="button" aria-label="Earth, select planet"><g class="orbit-motion"><circle r="7" fill="#76a5a2"/><circle class="planet-focus" r="14"/><animateMotion dur="36s" repeatCount="indefinite"><mpath href="#orbit-earth"/></animateMotion></g><text x="553" y="221">EARTH</text></g>
+              <g class="solar-planet" data-planet="mars" tabindex="0" role="button" aria-label="Mars, select planet"><g class="orbit-motion"><circle r="5" fill="#bc775d"/><circle class="planet-focus" r="12"/><animateMotion dur="68s" repeatCount="indefinite"><mpath href="#orbit-mars"/></animateMotion></g><text x="400" y="112">MARS</text></g>
+              <g class="solar-planet" data-planet="jupiter" tabindex="0" role="button" aria-label="Jupiter, select planet"><g class="orbit-motion"><circle r="12" fill="#cfaa7b"/><circle class="planet-focus" r="20"/><animateMotion dur="110s" repeatCount="indefinite"><mpath href="#orbit-jupiter"/></animateMotion></g><text x="669" y="214">JUPITER</text></g>
+              <g class="solar-planet" data-planet="saturn" tabindex="0" role="button" aria-label="Saturn, select planet"><g class="orbit-motion"><ellipse rx="14" ry="5" fill="none" stroke="#d9c69e" stroke-width="2"/><circle r="8" fill="#d0bb8f"/><circle class="planet-focus" r="16"/><animateMotion dur="170s" repeatCount="indefinite"><mpath href="#orbit-saturn"/></animateMotion></g><text x="400" y="54">SATURN</text></g>
+              <g class="solar-planet" data-planet="uranus" tabindex="0" role="button" aria-label="Uranus, select planet"><g class="orbit-motion"><circle r="8" fill="#95bdba"/><circle class="planet-focus" r="16"/><animateMotion dur="240s" repeatCount="indefinite"><mpath href="#orbit-uranus"/></animateMotion></g><text x="66" y="221">URANUS</text></g>
+              <g class="solar-planet" data-planet="neptune" tabindex="0" role="button" aria-label="Neptune, select planet"><g class="orbit-motion"><circle r="8" fill="#6f89b1"/><circle class="planet-focus" r="16"/><animateMotion dur="300s" repeatCount="indefinite"><mpath href="#orbit-neptune"/></animateMotion></g><text x="774" y="218">NEPTUNE</text></g>
+              <text class="sun-label" x="378" y="292">THE SUN</text>
+              <text class="diagram-note" x="25" y="443">ORBITS AND RELATIVE SIZES ARE SIMPLIFIED</text>
+            </svg>
+            <div class="solar-controls">
+              <button class="icon-button" id="motion-toggle" type="button" aria-pressed="false"><span aria-hidden="true">Ⅱ</span> <span>PAUSE MOTION</span></button>
+              <label class="speed-control">ORBIT PACE <input id="orbit-speed" type="range" min="0.5" max="2" step="0.5" value="1" aria-label="Orbit animation speed" aria-valuetext="1×"><output id="orbit-speed-value" aria-live="polite">1×</output></label>
+            </div>
+          </div>
+          <aside class="planet-note" aria-live="polite">
+            <p class="micro-label">SELECTED WORLD / <span id="planet-index">03</span></p>
+            <h3 id="planet-name">Earth</h3>
+            <p id="planet-copy">Our home world is the only place known to support life. Its liquid-water surface and atmosphere make it a remarkable vantage point for observing the rest of the Solar System.</p>
+            <a class="underlined-link" href="#index" id="planet-catalog-link">Find Earth in the index <span aria-hidden="true">↗</span></a>
+          </aside>
+        </div>
+        <p class="illustration-note">An educational illustration, not a real-time ephemeris. Orbital distances, sizes, and motion are simplified and not to scale.</p>
+      </section>
+
+      <section class="scale-section" aria-labelledby="scale-heading">
+        <div class="scale-intro">
+          <p class="section-kicker">05 / CHANGING THE FRAME</p>
+          <h2 id="scale-heading">A sense<br>of <em>scale.</em></h2>
+          <p>Each step outward changes what “nearby” means. Select a frame; the numbers are approximate and the definitions matter.</p>
+          <div class="scale-context" id="scale-context" aria-live="polite">
+            <span class="micro-label">CURRENT FRAME / 01</span>
+            <h3 id="scale-name">Earth</h3>
+            <p id="scale-description">A planet roughly 12,742 km across, measured from one side through its centre to the other. The familiar baseline for every journey outward.</p>
+            <p class="scale-measure" id="scale-measure">≈ 12,742 km <span>MEAN DIAMETER</span></p>
+          </div>
+        </div>
+        <div class="scale-visual">
+          <div class="scale-steps" id="scale-steps" role="group" aria-label="Choose a cosmic scale">
+            <button class="scale-step is-active" type="button" data-scale="earth" aria-pressed="true"><span class="scale-step-no">01</span><span>Earth</span><span class="scale-node"></span></button>
+            <button class="scale-step" type="button" data-scale="solar" aria-pressed="false"><span class="scale-step-no">02</span><span>Solar System</span><span class="scale-node"></span></button>
+            <button class="scale-step" type="button" data-scale="milky-way" aria-pressed="false"><span class="scale-step-no">03</span><span>Milky Way</span><span class="scale-node"></span></button>
+            <button class="scale-step" type="button" data-scale="local-group" aria-pressed="false"><span class="scale-step-no">04</span><span>Local Group</span><span class="scale-node"></span></button>
+            <button class="scale-step" type="button" data-scale="observable" aria-pressed="false"><span class="scale-step-no">05</span><span>Observable universe</span><span class="scale-node"></span></button>
+          </div>
+          <div class="scale-ruler" aria-hidden="true"><span id="scale-ruler-fill"></span><span class="ruler-tick tick-one"></span><span class="ruler-tick tick-two"></span><span class="ruler-tick tick-three"></span><span class="ruler-tick tick-four"></span></div>
+          <div class="scale-navigation" aria-label="Move between scale frames">
+            <button class="scale-nav-button" id="scale-previous" type="button" disabled><span aria-hidden="true">←</span> Previous frame</button>
+            <span class="scale-progress" id="scale-progress" aria-live="polite">01 / 05</span>
+            <button class="scale-nav-button" id="scale-next" type="button">Next frame <span aria-hidden="true">→</span></button>
+          </div>
+          <p class="scale-caveat" id="scale-caveat">The observable universe is the region from which light has had time to reach us—not necessarily the whole universe.</p>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-heading">
+        <div class="about-mark"><img src="assets/cosmoscope-mark.svg" width="68" height="68" alt=""></div>
+        <div class="about-copy">
+          <p class="section-kicker">06 / ABOUT THIS OBSERVATORY</p>
+          <h2 id="about-heading">Curiosity,<br><em>with a compass.</em></h2>
+          <p>COSMOSCOPE is an independent educational astronomy experience. It gathers public astronomical resources, original illustrations, and carefully framed reference notes in one place. It is not affiliated with NASA, and it does not attempt to replace scientific databases or professional observation tools.</p>
+          <p class="about-refs"><span class="micro-label">SOURCES & FURTHER READING</span><br>
+            <a href="https://api.nasa.gov/" target="_blank" rel="noopener noreferrer">NASA Open APIs ↗</a>
+            <a href="https://science.nasa.gov/solar-system/" target="_blank" rel="noopener noreferrer">NASA Solar System Exploration ↗</a>
+            <a href="https://science.nasa.gov/universe/galaxies/" target="_blank" rel="noopener noreferrer">NASA: Galaxies ↗</a>
+            <a href="https://imagine.gsfc.nasa.gov/features/cosmic/local_group_info.html" target="_blank" rel="noopener noreferrer">NASA Imagine: Local Group ↗</a>
+          </p>
+        </div>
+        <div class="about-colophon"><span>BUILT FOR THE CURIOUS</span><span>INDEPENDENT / EDUCATIONAL</span><span>EST. 2026</span></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#top">
+        <img src="assets/cosmoscope-mark.svg" width="32" height="32" alt="">
+        <span>COSMO<span class="brand-light">SCOPE</span></span>
+      </a>
+      <a class="footer-repository" id="repository-link" href="" target="_blank" rel="noopener noreferrer" hidden>Project repository ↗</a>
+      <p class="footer-legal">© <span id="copyright-year"></span> COSMOSCOPE. Original code & identity.<br>NASA imagery remains attributed to its respective creators.</p>
+      <nav class="footer-nav" aria-label="Footer navigation"><a href="#explore">Explore</a><a href="#picture">Daily sky</a><a href="#index">Index</a><a href="#about">About</a></nav>
+      <a class="back-to-top" href="#top">BACK TO TOP <span aria-hidden="true">↑</span></a>
+    </footer>
+
+    <dialog class="object-dialog" id="object-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-top"><span class="micro-label">FIELD NOTE / <span id="dialog-category">OBJECT</span></span><button class="dialog-close" type="button" aria-label="Close field note">CLOSE <span aria-hidden="true">×</span></button></div>
+      <div class="dialog-art" id="dialog-art" aria-hidden="true"></div>
+      <h2 id="dialog-title"></h2><p class="dialog-description" id="dialog-description"></p>
+      <dl class="dialog-facts" id="dialog-facts"></dl>
+      <p class="dialog-source" id="dialog-source"></p>
+      <button class="button button-dark dialog-favorite" id="dialog-favorite" type="button"></button>
+    </dialog>
+  </body>
+</html>
